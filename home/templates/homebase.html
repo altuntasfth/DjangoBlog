@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% comment %}<title>Colorlib Balita &mdash; Minimal Blog Template</title>{% endcomment %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>{% block title %}Blog{% endblock %}</title>
+    <meta name="keywords" content="{% block keywords %} Anasayfa anahtar kelimeler{% endblock %}">
+    <meta name="description" content="{% block description %} Anasayfa kısa açıklama{% endblock %}">
+
+    {% load static %}
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300, 400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css'%}">
+    <link rel="stylesheet" href="{% static 'css/animate.css'%}">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css'%}">
+
+    <link rel="stylesheet" href="{% static 'fonts/ionicons/css/ionicons.min.css'%}">
+    <link rel="stylesheet" href="{% static 'fonts/fontawesome/css/font-awesome.min.css'%}">
+    <link rel="stylesheet" href="{% static 'fonts/flaticon/font/flaticon.css'%}">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+
+    {% block head %} {% endblock %}
+
+</head>
+<body>
+
+    {% include "header.html" %}
+    {% block sidebar %} {% endblock %}
+    {% block slider %} {% endblock %}
+    {% block content %} {% endblock %}
+    {% block body %} {% endblock %}
+    {% include "footer.html" %}
+    {% block footer %} {% endblock %}
+
+</body>
+</html>

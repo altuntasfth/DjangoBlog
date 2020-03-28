@@ -1,0 +1,47 @@
+{% extends "homebase.html" %}
+
+{% comment %}{% block title %}İndex Sayfası{% endblock %}{% endcomment %}
+{% block keywords %}İndex Sayfası anahtar kelimeler{% endblock %}
+{% block description %}İndex Sayfası açıklama{% endblock %}
+
+{% block sidebar %}
+    {% include "sidebar.html" %}
+{% endblock %}
+
+{% block slider %}
+    {% include "slider.html" %}
+{% endblock %}
+
+{% block body %}
+    {% include "content.html" %}
+{% endblock %}
+
+
+
+
+
+
+
+{% comment %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deneme</title>
+</head>
+<body>
+    <h2>Django kurulum : python -m pip install</h2>
+    <h2>Proje oluşturma : django-admin startproject mysite</h2>
+    <h2>Server çalıştırma : python manage.py runserver</h2>
+    <h2>App ekleme : python manage.py startapp home</h2>
+    echo "# DjangoBlog" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/altuntasfth/DjangoBlog.git
+git push -u origin master
+git remote add origin https://github.com/altuntasfth/DjangoBlog.git
+git push -u origin master
+    <p>{{ text }}</p>
+</body>
+</html>{% endcomment %}
