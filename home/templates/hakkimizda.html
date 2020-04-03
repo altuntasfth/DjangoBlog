@@ -1,6 +1,6 @@
 {% extends "homebase.html" %}
 
-{% block title %}{{setting.title}}{% endblock %}
+{% block title %}Hakkımızda-{{setting.company}}{% endblock %}
 {% block keywords %}{{setting.keywords}}{% endblock %}
 {% block description %}{{setting.description}}{% endblock %}
 {% block head %}
@@ -8,15 +8,15 @@
 {% endblock %}
 
 
-
-{% block slider %}
-    {% include "slider.html" %}
+{% block content %}
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                {{ setting.abouts|safe }}
+            </div>
+        </div>
+    </div>
 {% endblock %}
-
-{% block body %}
-    {% include "content.html" %}
-{% endblock %}
-
 
 
 

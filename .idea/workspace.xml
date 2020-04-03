@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6b2a67b-57d3-4311-88f6-724b389a012b" name="Default Changelist" comment="Header update">
+    <list default="true" id="a6b2a67b-57d3-4311-88f6-724b389a012b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/home/templates/hakkimizda.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/hakkimizdayedek.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/iletisim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/referanslarimiz.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/sidebar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +37,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Fatih Altuntaş" />
         <option value="Fatih Altuntas" />
       </list>
     </option>
@@ -50,11 +56,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../3_Tkinter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/home/templates" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\home\templates" />
       <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\product" />
     </key>
   </component>
@@ -127,7 +134,7 @@
       <workItem from="1585394373958" duration="19361000" />
       <workItem from="1585747803244" duration="2746000" />
       <workItem from="1585830715466" duration="10896000" />
-      <workItem from="1585917510281" duration="489000" />
+      <workItem from="1585917510281" duration="14136000" />
     </task>
     <task id="LOCAL-00001" summary="Header update">
       <created>1585423534503</created>
@@ -143,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585423591833</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Setting Fav İcon">
+      <created>1585918132656</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585918132656</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,16 +165,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Header update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Header update" />
+    <MESSAGE value="Setting Fav İcon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setting Fav İcon" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585423608844">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="462" y="0" key="CommitChangelistDialog2" timestamp="1585948012847">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
+    <state x="462" y="0" key="CommitChangelistDialog2/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1585948012847" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585423608844" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1585221899041">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="694" y="182" key="FileChooserDialogImpl" timestamp="1585942493616">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
+    <state x="694" y="182" key="FileChooserDialogImpl/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1585942493616" />
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585221899041" />
     <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1583449321352">
       <screen x="0" y="0" width="2048" height="1112" />
@@ -182,19 +199,20 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585420371511" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1585423666077">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="412" y="148" key="Vcs.Push.Dialog.v2" timestamp="1585918138271">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
+    <state x="412" y="148" key="Vcs.Push.Dialog.v2/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1585918138271" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585423666077" />
     <state x="721" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1585917572383">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="721" y="380" key="com.intellij.ide.util.TipDialog/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1585917572383" />
     <state x="481" y="249" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585394648000" />
-    <state x="738" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585918083665">
+    <state x="738" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585947977701">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="738" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1585918083665" />
+    <state x="738" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1585947977701" />
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1585423606183" />
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1583698945874">
       <screen x="0" y="0" width="2048" height="1112" />
