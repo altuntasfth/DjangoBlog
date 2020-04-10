@@ -21,13 +21,17 @@ def index(request):
 
 def hakkimizda(request):
     setting = Setting.objects.get(pk=1)
-    context = {'setting': setting}
+    category = Category.objects.all()
+    context = {'setting': setting,
+               'category': category, }
     return render(request, 'hakkimizda.html', context)
 
 
 def referanslar(request):
     setting = Setting.objects.get(pk=1)
-    context = {'setting': setting}
+    category = Category.objects.all()
+    context = {'setting': setting,
+               'category': category, }
     return render(request, 'referanslarimiz.html', context)
 
 
@@ -47,6 +51,9 @@ def iletisim(request):
 
     setting = Setting.objects.get(pk=1)
     form = ContactForm()
-    context = {'setting': setting, 'form': form}
+    category = Category.objects.all()
+    context = {'setting': setting,
+               'form': form,
+               'category': category, }
     return render(request, 'iletisim.html', context)
 

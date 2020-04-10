@@ -1,40 +1,30 @@
 {% load static %}
 
-<nav class="navbar navbar-expand-md  navbar-light bg-light">
-    <div class="container">
-
-
-        <div class="collapse navbar-collapse" id="navbarMenu">
-            <ul class="navbar-nav mx-auto">
-
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="category.html" id="dropdown05" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">Categories</a>
-
-                    <div class="dropdown-menu" aria-labelledby="dropdown05">
-                        {% load mptt_tags %}
-
-                        {% recursetree category %}
-                            <a class="dropdown-item" href="#"><a>{{ node.title }}</a>
-
-                                {% if not node.is_leaf_node %}
+<nav class="menu">
+    <ul>
+        <li data-dropdown>
+            <a href="#">KATEGORİ</a>
+            <div class="dropdown">
+                {% load mptt_tags %}
+                {% recursetree category %}
+                    <ul>
+                        <li><a href="#">{{ node.title }}</a>
+                            {% if not node.is_leaf_node %}
+                                <div class="dropdown">
                                     <ul class="children">
-                                        <li><a class="dropdown-item" href="#">{{ children }}</a></li>
-
+                                        <a href="#">{{ children }}</a>
                                     </ul>
-                                {% endif %}
-                            </a>
-                        {% endrecursetree %}
+                                </div>
+                            {% endif %}
 
-                    </div>
-
-                </li>
-
-            </ul>
-
-        </div>
-    </div>
+                        </li>
+                    </ul>
+                {% endrecursetree %}
+            </div>
+        </li>
+    </ul>
 </nav>
 
 
+
+<!-- END header -->
