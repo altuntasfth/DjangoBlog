@@ -3,16 +3,16 @@
 <nav class="menu">
     <ul>
         <li data-dropdown>
-            <a href="#">KATEGORİ</a>
+            <a href="#" >KATEGORİ</a>
             <div class="dropdown">
                 {% load mptt_tags %}
                 {% recursetree category %}
                     <ul>
-                        <li><a href="#">{{ node.title }}</a>
+                        <li><a href="/category/{{ node.id }}/{{ node.slug }}">{{ node.title }}</a>
                             {% if not node.is_leaf_node %}
                                 <div class="dropdown">
                                     <ul class="children">
-                                        <a href="#">{{ children }}</a>
+                                        <a href="/category/{{ node.id }}/{{ node.slug }}">{{ children }}</a>
                                     </ul>
                                 </div>
                             {% endif %}
