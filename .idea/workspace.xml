@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b2a67b-57d3-4311-88f6-724b389a012b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/home/templates/product_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/blog-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/blog-single.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/slider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/hakkimizdayedek.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +134,8 @@
       <workItem from="1586346823409" duration="8853000" />
       <workItem from="1586513975562" duration="5816000" />
       <workItem from="1586528645940" duration="17794000" />
-      <workItem from="1586622252516" duration="17477000" />
+      <workItem from="1586622252516" duration="17740000" />
+      <workItem from="1586712250475" duration="5926000" />
     </task>
     <task id="LOCAL-00001" summary="Header update">
       <created>1585423534503</created>
@@ -210,10 +213,10 @@
     </state>
     <state x="412" y="148" key="Vcs.Push.Dialog.v2/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1585948037898" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585423666077" />
-    <state x="721" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1586622273763">
+    <state x="721" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1586712267697">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1586622273763" />
+    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1586712267697" />
     <state x="481" y="249" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585394648000" />
     <state x="738" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585947977701">
       <screen x="0" y="0" width="2048" height="1112" />
