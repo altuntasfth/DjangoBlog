@@ -1,6 +1,6 @@
 {% extends "homebase.html" %}
 
-{% block title %}{{ categorydata.title }} Blogs{% endblock %}
+{% block title %}Blog Search Results{% endblock %}
 {% block keywords %}{{ categorydata.keywords }}{% endblock %}
 {% block description %}{{ categorydata.description }}{% endblock %}
 {% block head %}
@@ -13,12 +13,29 @@
         <div class="container">
             <div class="row mb-4">
                 <div class="col-md-6">
-                    <h2 class="mb-4">Kategori: {{ categorydata.title }}</h2>
+                    <h2 class="mb-4">{{ categorydata.title }}</h2>
                 </div>
             </div>
                 <div class="row blog-entries">
                     <div class="col-md-12 col-lg-8 main-content">
                         <div class="row mb-5 mt-5">
+
+                        <!--<table>
+                            <tr>
+                                <th>Product Name</th>
+                                <th>Category</th>
+                                <th>Image</th>
+                                <th>Price</th>
+                            </tr>
+                            {% for rs in products %}
+                            <tr>
+                                <td><h2><a href="/product/{{ rs.id }}/{{ rs.slug }}">{{ rs.title }}</a></h2></td>
+                                <td>{{ rs.category }}</td>
+                                <td>{{ rs.image.url }}</td>
+                                <td>Price</td>
+                            </tr>
+                            {% endfor %}
+                        </table> -->
 
                             <div class="col-md-12">
                                 {% for rs in products %}

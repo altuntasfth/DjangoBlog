@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b2a67b-57d3-4311-88f6-724b389a012b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/home/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/pp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/products_search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/blog-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/blog-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/iletisim.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/iletisim.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/product_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/sidebar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -50,15 +56,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mysite2/mysite2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/home/templates" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\home\templates" />
+      <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\home\static\images" />
       <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\home\static\css" />
       <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\TEMPS\css" />
       <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\product" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\TEMPS\images" />
+      <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\uploads\images" />
     </key>
   </component>
   <component name="RunManager" selected="Python.views">
@@ -141,7 +152,9 @@
       <workItem from="1586892853007" duration="677000" />
       <workItem from="1586893643311" duration="1293000" />
       <workItem from="1586894954496" duration="204000" />
-      <workItem from="1587050055869" duration="10781000" />
+      <workItem from="1587050055869" duration="15948000" />
+      <workItem from="1587133885530" duration="1318000" />
+      <workItem from="1587149849517" duration="4768000" />
     </task>
     <task id="LOCAL-00001" summary="Header update">
       <created>1585423534503</created>
@@ -220,12 +233,12 @@
     </state>
     <state x="412" y="148" key="Vcs.Push.Dialog.v2/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1585948037898" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585423666077" />
-    <state x="721" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1587050146921">
+    <state x="721" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1587149849536">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1587050146921" />
+    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1587149849536" />
     <state x="481" y="249" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585394648000" />
-    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1586894954801" />
+    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1587133885211" />
     <state x="738" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585947977701">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
