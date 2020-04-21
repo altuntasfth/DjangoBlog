@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b2a67b-57d3-4311-88f6-724b389a012b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/home/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/images/pp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/products_search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/blog-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/blog-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMPS/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/iletisim.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/iletisim.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/product_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/homebase.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/homebase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/referanslarimiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/referanslarimiz.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
     </list>
@@ -56,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/home/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1_Deneme" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -154,7 +146,8 @@
       <workItem from="1586894954496" duration="204000" />
       <workItem from="1587050055869" duration="15948000" />
       <workItem from="1587133885530" duration="1318000" />
-      <workItem from="1587149849517" duration="4768000" />
+      <workItem from="1587149849517" duration="6288000" />
+      <workItem from="1587470797780" duration="11581000" />
     </task>
     <task id="LOCAL-00001" summary="Header update">
       <created>1585423534503</created>
@@ -202,12 +195,12 @@
     </state>
     <state x="462" y="0" key="CommitChangelistDialog2/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1585948034128" />
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585423608844" />
-    <state x="694" y="182" key="FileChooserDialogImpl" timestamp="1586893656780">
+    <state x="694" y="182" key="FileChooserDialogImpl" timestamp="1587470836618">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="694" y="182" key="FileChooserDialogImpl/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1586543271748" />
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585221899041" />
-    <state x="694" y="182" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1586893656780" />
+    <state x="694" y="182" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1587470836618" />
     <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1583449321352">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -233,12 +226,12 @@
     </state>
     <state x="412" y="148" key="Vcs.Push.Dialog.v2/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1585948037898" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585423666077" />
-    <state x="721" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1587149849536">
+    <state x="721" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1587470823368">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="721" y="380" key="com.intellij.ide.util.TipDialog/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1587149849536" />
     <state x="481" y="249" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585394648000" />
-    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1587133885211" />
+    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1587470823368" />
     <state x="738" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585947977701">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

@@ -1,5 +1,25 @@
 {% load static %}
+
 <header role="banner">
+
+    <script>
+
+        $(function () {
+            $("#query").autocomplete({
+                source: "/search_auto/",
+                select: function (event, ui) { //item selected
+                    AutoCompleteSelectHandler(event, ui)
+                },
+                minLength: 2,
+            });
+        });
+
+        function AutoCompleteSelectHandler(event, ui) {
+            var selectedObj = ui.item;
+        }
+
+    </script>
+
     <div class="top-bar">
         <div class="container">
             <div class="row">
@@ -13,8 +33,24 @@
                     <!-- <a href="#"><span class="fa fa-search"></span></a> -->
                     <form action="/search/" class="search-top-form" method="post">
                         {% csrf_token %}
+
+                        {% load mptt_tags %}
+                        <!--<select name="catid" class="search-top">
+                            <option class="categories" value="0">Kategoriler</option>
+                            {% recursetree category %}
+                                {% if node.is_leaf_node %}
+                                    <option class="categories" value="{{ node.id }}/{{ node.title }}"></option>
+                                {% endif %}
+                                {% if not node.is_leaf_node %}
+                                    <optgroup class="categories" label="{{ node.title }}">
+                                        {{ children }}
+                                    </optgroup>
+                                {% endif %}
+                            {% endrecursetree %}
+                        </select>
+                        -->
                         <button class="icon fa fa-search"></button>
-                        <input name="query" type="text" id="s" placeholder="Type keyword to search...">
+                        <input name="query" type="text" id="query" placeholder="Type keyword to search...">
                     </form>
                 </div>
             </div>
