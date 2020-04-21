@@ -27,15 +27,16 @@
                     <a href="https://twitter.com/altuntasfth"><span class="fa fa-twitter"></span></a>
                     <a href="https://www.facebook.com/altuntasfth"><span class="fa fa-facebook"></span></a>
                     <a href="https://www.instagram.com/fth.altuntas/"><span class="fa fa-instagram"></span></a>
+                    <a href="https://github.com/altuntasfth"><span class="fa fa-github"></span></a>
 
                 </div>
                 <div class="col-3 search-top">
                     <!-- <a href="#"><span class="fa fa-search"></span></a> -->
                     <form action="/search/" class="search-top-form" method="post">
                         {% csrf_token %}
-
+                        <!--
                         {% load mptt_tags %}
-                        <!--<select name="catid" class="search-top">
+                        <select name="catid" class="search-top" id="left">
                             <option class="categories" value="0">Kategoriler</option>
                             {% recursetree category %}
                                 {% if node.is_leaf_node %}
