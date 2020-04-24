@@ -2,23 +2,6 @@
 
 <header role="banner">
 
-    <script>
-
-        $(function () {
-            $("#query").autocomplete({
-                source: "/search_auto/",
-                select: function (event, ui) { //item selected
-                    AutoCompleteSelectHandler(event, ui)
-                },
-                minLength: 2,
-            });
-        });
-
-        function AutoCompleteSelectHandler(event, ui) {
-            var selectedObj = ui.item;
-        }
-
-    </script>
 
     <div class="top-bar">
         <div class="container">
@@ -30,30 +13,17 @@
                     <a href="https://github.com/altuntasfth"><span class="fa fa-github"></span></a>
 
                 </div>
-                <div class="col-3 search-top">
-                    <!-- <a href="#"><span class="fa fa-search"></span></a> -->
-                    <form action="/search/" class="search-top-form" method="post">
-                        {% csrf_token %}
-                        <!--
-                        {% load mptt_tags %}
-                        <select name="catid" class="search-top" id="left">
-                            <option class="categories" value="0">Kategoriler</option>
-                            {% recursetree category %}
-                                {% if node.is_leaf_node %}
-                                    <option class="categories" value="{{ node.id }}/{{ node.title }}"></option>
-                                {% endif %}
-                                {% if not node.is_leaf_node %}
-                                    <optgroup class="categories" label="{{ node.title }}">
-                                        {{ children }}
-                                    </optgroup>
-                                {% endif %}
-                            {% endrecursetree %}
-                        </select>
-                        -->
-                        <button class="icon fa fa-search"></button>
-                        <input name="query" type="text" id="query" placeholder="Type keyword to search...">
-                    </form>
-                </div>
+                {% if user.id is not None %}
+                    <div class="menu">
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="#" class="fa fa-user">&nbsp;{{ user.first_name }}</a> / <a href="/logout/" class="fa fa-sign-out">&nbsp;Logout</a>
+                    </div>
+                {% else %}
+                    <div class="col">
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="/login/">Login</a> / <a href="/join/">Register</a>
+                    </div>
+                {% endif %}
+
+
             </div>
         </div>
     </div>
@@ -90,6 +60,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/iletisim">İletişim</a>
                     </li>
+
+                    {% block profile %}
+                        {% include "headerPofile.html" %}
+                    {% endblock %}
                 </ul>
 
             </div>

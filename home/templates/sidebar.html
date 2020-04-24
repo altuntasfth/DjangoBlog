@@ -1,6 +1,48 @@
 {% load static %}
 <div class="col-md-12 col-lg-4 sidebar">
 
+    <script>
+        $(function () {
+            $("#query").autocomplete({
+                source: "/search_auto/",
+                select: function (event, ui) { //item selected
+                    AutoCompleteSelectHandler(event, ui)
+                },
+                minLength: 2,
+            });
+        });
+        function AutoCompleteSelectHandler(event, ui) {
+            var selectedObj = ui.item;
+        }
+    </script>
+
+    <div class="sidebar-box search-form-wrap">
+        <!-- <a href="#"><span class="fa fa-search"></span></a> -->
+        <form action="/search/" class="search-form" method="post">
+            {% csrf_token %}
+            <!--
+                        {% load mptt_tags %}
+                        <select name="catid" class="search-top" id="left">
+                            <option class="categories" value="0">Kategoriler</option>
+                            {% recursetree category %}
+                                {% if node.is_leaf_node %}
+                                    <option class="categories" value="{{ node.id }}/{{ node.title }}"></option>
+                                {% endif %}
+                                {% if not node.is_leaf_node %}
+                                    <optgroup class="categories" label="{{ node.title }}">
+                                        {{ children }}
+                                    </optgroup>
+                                {% endif %}
+                            {% endrecursetree %}
+                        </select>
+                        -->
+            <div class="form-group">
+                <button class="icon fa fa-search"></button>
+                <input name="query" type="text" id="query" class="form-control" placeholder="Type keyword to search...">
+            </div>
+        </form>
+    </div>
+
     <div class="sidebar-box">
         <div class="bio text-center">
             <img src="{% static 'images/pp.jpg' %}" alt="Image Placeholder" class="img-fluid">
