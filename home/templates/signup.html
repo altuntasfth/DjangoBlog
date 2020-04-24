@@ -1,0 +1,81 @@
+{% extends "homebase.html" %}
+
+{% block title %}Register{% endblock %}
+{% block keywords %}{{ setting.keywords }}{% endblock %}
+{% block description %}{{ setting.description }}{% endblock %}
+{% block head %}
+    <link rel="shortcut icon" type="image/x-icon" href="{{ setting.icon.url }}"/>
+{% endblock %}
+
+
+{% block content %}
+    <div class="section">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <h1>Register</h1>
+                </div>
+            </div>
+
+            <div class="row blog-entries">
+                <div class="col-md-12 col-lg-8 main-content">
+                    {% if messages %}
+                        {% for message in messages %}
+                            <div class="alert alert-{{ message.tags }}" role="alert">
+                                {{ message }}
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                    <form action="" method="post">
+                        {% csrf_token %}
+                        {% for field in form %}
+                            <p>
+                                {{ field.label_tag }}<br>
+                                {{ field }}
+                                {% if field.help_text %}
+                                    <small style="color: grey">{{ field.help_text }}</small>
+                                {% endif %}
+                                {% for error in field.errors %}
+                                    <p style="color: red">{{ error }}</p>
+                                {% endfor %}
+                            </p>
+                        {% endfor %}
+                        <input type="submit" value="Register" class="btn btn-primary">
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+{% endblock %}
+
+
+
+
+
+{% comment %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deneme</title>
+</head>
+<body>
+    <h2>Django kurulum : python -m pip install</h2>
+    <h2>Proje oluşturma : django-admin startproject mysite</h2>
+    <h2>Server çalıştırma : python manage.py runserver</h2>
+    <h2>App ekleme : python manage.py startapp home</h2>
+    echo "# DjangoBlog" >> README.md
+git init  //Bir kez
+git add README.md   //Bir kez
+git add .       //Her güncellemede
+git commit -m "first commit"   //Her güncellemede
+git remote add origin https://github.com/altuntasfth/DjangoBlog.git     //Bir kez
+git push -u origin master    //Her güncellemede
+git remote add origin https://github.com/altuntasfth/DjangoBlog.git
+git push -u origin master
+    <p>{{ text }}</p>
+</body>
+</html>{% endcomment %}
