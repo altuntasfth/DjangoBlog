@@ -15,7 +15,7 @@
                 </div>
                 {% if user.id is not None %}
                     <div class="menu">
-                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="#" class="fa fa-user">&nbsp;{{ user.first_name }}</a> / <a href="/logout/" class="fa fa-sign-out">&nbsp;Logout</a>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="/user" class="fa fa-user">&nbsp;{{ user.first_name }}</a> / <a href="/logout/" class="fa fa-sign-out">&nbsp;Logout</a>
                     </div>
                 {% else %}
                     <div class="col">
