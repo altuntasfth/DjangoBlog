@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b2a67b-57d3-4311-88f6-724b389a012b" name="Default Changelist" comment="Abouts, Refenrences">
-      <change afterPath="$PROJECT_DIR$/user/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/user_panel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/user_profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/users/çaycı_hüseyin4_.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/users/çaycı_hüseyin4__hqdPeWX.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/templates/change_password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/templates/user_update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/headerPofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/headerPofile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/user_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,17 +73,17 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\user\templates" />
-      <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\user\migrations" />
-      <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\home\templates" />
-      <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\home\static\images" />
-      <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\home\static\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\user" />
       <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\TEMPS\images" />
       <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\uploads\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\user\templates" />
+      <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\user" />
+      <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\user\migrations" />
+      <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\home\templates" />
+      <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\home\static\images" />
     </key>
   </component>
   <component name="RunManager" selected="Python.views">
@@ -177,7 +171,8 @@
       <workItem from="1587149849517" duration="6288000" />
       <workItem from="1587470797780" duration="13728000" />
       <workItem from="1587725433211" duration="17058000" />
-      <workItem from="1587994090722" duration="7329000" />
+      <workItem from="1587994090722" duration="7620000" />
+      <workItem from="1588840718461" duration="7097000" />
     </task>
     <task id="LOCAL-00001" summary="Header update">
       <created>1585423534503</created>
@@ -269,10 +264,10 @@
     </state>
     <state x="412" y="148" key="Vcs.Push.Dialog.v2/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1585948037898" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585423666077" />
-    <state x="721" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1587994093869">
+    <state x="721" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1588840769240">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1587994093869" />
+    <state x="721" y="380" key="com.intellij.ide.util.TipDialog/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1588840769240" />
     <state x="481" y="249" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585394648000" />
     <state x="721" y="380" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1587470823368" />
     <state x="738" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585947977701">
