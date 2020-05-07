@@ -1,0 +1,87 @@
+{% extends "homebase.html" %}
+
+{% block title %}{{ profile.user_name }} Profile{% endblock %}
+{% block keywords %}{{ setting.keywords }}{% endblock %}
+{% block description %}{{ setting.description }}{% endblock %}
+{% block head %}
+    <link rel="shortcut icon" type="image/x-icon" href="{{ setting.icon.url }}"/>
+{% endblock %}
+
+
+{% block content %}
+    <div class="section">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <h1>User Comments</h1>
+                </div>
+            </div>
+
+            <div class="row blog-entries">
+                <div class="col-md-2">
+                    {% include "user_panel.html" %}
+                </div>
+                <div class="col-md-10 ">
+
+                    <table class="table-active table">
+                        <tr>
+                            <th class="text-left">Blog</th>
+                            <th class="text-left">Subject</th>
+                            <th class="text-left">Comment</th>
+                            <th class="text-left">Status</th>
+                            <th class="text-left">Date</th>
+                        </tr>
+                        {% for rs in comments %}
+                            <tr>
+                                <td class="text-left">
+                                    <a href="/product/{{ rs.product_id }}/{{ rs.product.slug }}">
+                                        <b>{{ rs.product.title }}</b>
+                                    </a>
+                                </td>
+                                <td class="text-left">{{ rs.subject }}</td>
+                                <td class="text-left">{{ rs.comment }}</td>
+                                <td class="text-left">{{ rs.status }}</td>
+                                <td class="text-left">{{ rs.create_at }}</td>
+                                <td class="text-left"><a class="btn btn-danger" href="/user/deletecomment/{{ rs.id }}"
+                                                         onclick="return confirm('Will be DELETE! Are you sure?')">Delete</a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+{% endblock %}
+
+
+
+
+
+{% comment %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deneme</title>
+</head>
+<body>
+    <h2>Django kurulum : python -m pip install</h2>
+    <h2>Proje oluşturma : django-admin startproject mysite</h2>
+    <h2>Server çalıştırma : python manage.py runserver</h2>
+    <h2>App ekleme : python manage.py startapp home</h2>
+    echo "# DjangoBlog" >> README.md
+git init  //Bir kez
+git add README.md   //Bir kez
+git add .       //Her güncellemede
+git commit -m "first commit"   //Her güncellemede
+git remote add origin https://github.com/altuntasfth/DjangoBlog.git     //Bir kez
+git push -u origin master    //Her güncellemede
+git remote add origin https://github.com/altuntasfth/DjangoBlog.git
+git push -u origin master
+    <p>{{ text }}</p>
+</body>
+</html>{% endcomment %}

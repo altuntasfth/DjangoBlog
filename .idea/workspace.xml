@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b2a67b-57d3-4311-88f6-724b389a012b" name="Default Changelist" comment="Abouts, Refenrences">
-      <change afterPath="$PROJECT_DIR$/uploads/images/users/çaycı_hüseyin4_.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/users/çaycı_hüseyin4__hqdPeWX.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/change_password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/user_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/templates/user_comments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEMPS/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TEMPS/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/headerPofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/headerPofile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/user_panel.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user_panel.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/templates/user_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user_profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
@@ -172,7 +173,7 @@
       <workItem from="1587470797780" duration="13728000" />
       <workItem from="1587725433211" duration="17058000" />
       <workItem from="1587994090722" duration="7620000" />
-      <workItem from="1588840718461" duration="7097000" />
+      <workItem from="1588840718461" duration="15700000" />
     </task>
     <task id="LOCAL-00001" summary="Header update">
       <created>1585423534503</created>
@@ -216,10 +217,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Abouts, Refenrences" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="617" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587735895706">
+    <state x="617" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588857391724">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1587735895706" />
+    <state x="617" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1588857391724" />
     <state x="755" y="303" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587731440445">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -251,10 +252,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="2005" height="305" key="GridCell.Tab.0.right/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1583449321351" />
-    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1587735860236">
+    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1588857435667">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="189" height="457" key="HiddenNamespacesPopup/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1587735860236" />
+    <state width="189" height="457" key="HiddenNamespacesPopup/-1366.127.1366.718/0.0.2048.1112@0.0.2048.1112" timestamp="1588857435667" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1585420371511">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
