@@ -1,9 +1,10 @@
+from ckeditor.widgets import CKEditorWidget
 from ckeditor_uploader.fields import RichTextUploadingField
 from django.contrib.auth.models import User
 from django.db import models
 
 # Create your models here.
-from django.forms import ModelForm
+from django.forms import ModelForm, TextInput, Select, ModelChoiceField, FileInput
 from django.urls import reverse
 from django.utils.safestring import mark_safe
 from mptt.fields import TreeForeignKey
@@ -45,13 +46,12 @@ class Product(models.Model):
         ('True', 'Evet'),
         ('False', 'Hayır')
     )
-    category = models.ForeignKey(Category, on_delete=models.CASCADE)
+    category = models.ForeignKey(Category, on_delete=models.CASCADE, null=True)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True) #on_delete=models.CASCADE, null=True
     title = models.CharField(blank=True, max_length=100)
     keywords = models.CharField(blank=True, max_length=255)
     description = models.CharField(blank=True, max_length=255)
     image = models.ImageField(blank=True, upload_to='images/')
-    price = models.FloatField()
-    amount = models.IntegerField()
     detail = RichTextUploadingField()
     slug = models.SlugField(null=False, unique=True)
     status = models.CharField(max_length=10, choices=STATUS)
@@ -103,3 +103,18 @@ class CommentForm(ModelForm):
     class Meta:
         model = Comment
         fields = ['comment']
+
+
+class ContentForm(ModelForm):
+    class Meta:
+        model = Product
+        fields = ['category', 'title', 'keywords', 'description', 'image', 'detail', 'slug']
+        widgets = {
+            'title': TextInput(attrs={'class': 'input', 'placeholder': 'title'}),
+            'slug': TextInput(attrs={'class': 'input', 'placeholder': 'slug'}),
+            'keywords': TextInput(attrs={'class': 'input', 'placeholder': 'keywords'}),
+            'description': TextInput(attrs={'class': 'input', 'placeholder': 'description'}),
+            #'category': ModelChoiceField(queryset=Category.objects.all(), required=False),
+            'image': FileInput(attrs={'class': 'input', 'placeholder': 'image'}),
+            'detail': CKEditorWidget,
+        }

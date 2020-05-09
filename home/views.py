@@ -6,6 +6,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 
 # Create your views here.
+from content.models import Menu, Content, CImages
 from home.forms import SearchForm, SignUpForm
 from home.models import Setting, ContactForm, ContactFormMessage
 from product.models import Product, Category, Images, Comment
@@ -13,14 +14,16 @@ from product.models import Product, Category, Images, Comment
 
 def index(request):
     setting = Setting.objects.get(pk=1)
-    sliderdate = Product.objects.all()[:3]
+    sliderdate = Product.objects.filter(status=True)[:3]
     category = Category.objects.all()
-    dayproduct = Product.objects.all()[:6]
-    lastproduct = Product.objects.all().order_by('-id')[:6]
-    randomproduct = Product.objects.all().order_by('?')[:3]
+    menu = Menu.objects.all()
+    dayproduct = Product.objects.filter(status=True)[:6]
+    lastproduct = Product.objects.filter(status=True).order_by('-id')[:6]
+    randomproduct = Product.objects.filter(status=True).order_by('?')[:3]
     context = {'setting': setting,
                'page': 'home',
                'category':  category,
+               'menu':  menu,
                'sliderdata': sliderdate,
                'dayproducts': dayproduct,
                'lastproducts': lastproduct,
@@ -79,14 +82,19 @@ def category_products(request, id, slug):
 
 def product_detail(request, id, slug):
     category = Category.objects.all()
-    product = Product.objects.get(pk=id)
-    images = Images.objects.filter(product_id=id)
-    comments = Comment.objects.filter(product_id=id, status='True')
-    context = {'category': category,
-               'product': product,
-               'images': images,
-               'comments': comments, }
-    return render(request, 'product_detail.html', context)
+    try:
+        product = Product.objects.get(pk=id)
+        images = Images.objects.filter(product_id=id)
+        comments = Comment.objects.filter(product_id=id, status='True')
+        context = {'category': category,
+                   'product': product,
+                   'images': images,
+                   'comments': comments, }
+        return render(request, 'product_detail.html', context)
+    except:
+        messages.warning(request, 'Hata! İlgili içerik bulunamadı.')
+        link = '/error'
+        return HttpResponseRedirect(link)
 
 
 def product_search(request):
@@ -165,3 +173,11 @@ def signup_view(request):
     context = {'category': category,
                'form': form, }
     return render(request, 'signup.html', context)
+
+
+def error(request):
+    category = Category.objects.all()
+    menu = Menu.objects.all(),
+    context = {'category': category,
+               'menu': menu}
+    return render(request, 'error.html', context)
