@@ -2,20 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b2a67b-57d3-4311-88f6-724b389a012b" name="Default Changelist" comment="Abouts, Refenrences">
-      <change afterPath="$PROJECT_DIR$/home/static/images/image_gallery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/Gradient_lxE2YLf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/background_5NDWZvg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/background_qpzKjMZ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/waterfall_MLRP6NL.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/waterfall_VCYvXTt.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/content_gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/1_GZIs3Wv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/1_HGKd3pQ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/1_yL0PmL9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/2020/05/17/img_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/2020/05/17/img_9_PkNyspN.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/2020/05/17/img_9_PkNyspN_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/2020/05/17/img_9_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/2020/05/17/img_9_vSPk6Pz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/2020/05/17/img_9_vSPk6Pz_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/2_0LF4y2w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/2_ZvYsgbO.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/2_sNPMuAH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/2_uew9qRF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/3_8j5devw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/3_HG76m5i.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/3_INjuhww.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/3_cowuuNN.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/43_2Y8uErp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/48_6UBqVG6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/b16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/b18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/b19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/b1_T9cI7he.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/b4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/b8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/banner01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/banner01_0OUaGZn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/banner02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/banner02_rZdmDym.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/banner02_swmyoSi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/banner03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/banner08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/banner08_6dkTNKR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/banner10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/banner13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/bg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/img_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/img_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/img_11_5RnIoGz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/img_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/img_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/img_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/img_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/img_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/img_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/img_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/img_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/main-product01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/main-product02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/main-product02_UITEGvO.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/main-product03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/main-product03_b6Q5VgV.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/person_testimonial_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/images/thumb-product01.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/templates/user_contents.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user_contents.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/product_detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +246,7 @@
       <workItem from="1587994090722" duration="7620000" />
       <workItem from="1588840718461" duration="17272000" />
       <workItem from="1589028466263" duration="23522000" />
-      <workItem from="1589717368693" duration="10797000" />
+      <workItem from="1589717368693" duration="14256000" />
     </task>
     <task id="LOCAL-00001" summary="Header update">
       <created>1585423534503</created>
