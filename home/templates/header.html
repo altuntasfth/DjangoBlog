@@ -15,11 +15,14 @@
                 </div>
                 {% if user.id is not None %}
                     <div class="menu">
-                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="/user" class="fa fa-user">&nbsp;{{ user.first_name }}</a> / <a href="/logout/" class="fa fa-sign-out">&nbsp;Logout</a>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="/user"
+                                                               class="fa fa-user">&nbsp;{{ user.first_name }}</a> / <a
+                            href="/logout/" class="fa fa-sign-out">&nbsp;Logout</a>
                     </div>
                 {% else %}
                     <div class="col">
-                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="/login/">Login</a> / <a href="/signup/">Register</a>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="/login/">Login</a> / <a
+                            href="/signup/">Register</a>
                     </div>
                 {% endif %}
 
@@ -59,6 +62,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/iletisim">İletişim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/sss">S.S.S</a>
                     </li>
 
                     {% block profile %}

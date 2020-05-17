@@ -8,7 +8,7 @@ from django.shortcuts import render
 # Create your views here.
 from content.models import Menu, Content, CImages
 from home.forms import SearchForm, SignUpForm
-from home.models import Setting, ContactForm, ContactFormMessage, UserProfile
+from home.models import Setting, ContactForm, ContactFormMessage, UserProfile, FAQ
 from product.models import Product, Category, Images, Comment
 
 
@@ -22,8 +22,8 @@ def index(request):
     randomproduct = Product.objects.filter(status=True).order_by('?')[:3]
     context = {'setting': setting,
                'page': 'home',
-               'category':  category,
-               'menu':  menu,
+               'category': category,
+               'menu': menu,
                'sliderdata': sliderdate,
                'dayproducts': dayproduct,
                'lastproducts': lastproduct,
@@ -102,16 +102,16 @@ def product_search(request):
         form = SearchForm(request.POST)
         if form.is_valid():
             category = Category.objects.all()
-            #catid = form.cleaned_data['catid']
+            # catid = form.cleaned_data['catid']
             query = form.cleaned_data['query']
-            #return HttpResponse(catid)
+            # return HttpResponse(catid)
 
-            #if catid == 0:
+            # if catid == 0:
             products = Product.objects.filter(title__icontains=query)
-            #else:
-                #products = Product.objects.filter(title__icontains=query, category_id=catid)
+            # else:
+            # products = Product.objects.filter(title__icontains=query, category_id=catid)
 
-            #return HttpResponse(products)
+            # return HttpResponse(products)
             context = {'category': category,
                        'products': products, }
             return render(request, 'products_search.html', context)
@@ -166,7 +166,7 @@ def signup_view(request):
             password = form.cleaned_data.get('password1')
             user = authenticate(username=username, password=password)
             login(request, user)
-            current_user = request.user;
+            current_user = request.user
             data = UserProfile()
             data.user_id = current_user.id
             data.image = "images/user/user.png"
@@ -183,7 +183,17 @@ def signup_view(request):
 
 def error(request):
     category = Category.objects.all()
-    menu = Menu.objects.all(),
+    menu = Menu.objects.all()
     context = {'category': category,
                'menu': menu}
     return render(request, 'error.html', context)
+
+
+def faq(request):
+    category = Category.objects.all()
+    menu = Menu.objects.all()
+    faq = FAQ.objects.all().order_by('ordernumber')
+    context = {'category': category,
+               'faq': faq,
+               'menu': menu}
+    return render(request, 'faq.html', context)

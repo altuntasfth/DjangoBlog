@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b2a67b-57d3-4311-88f6-724b389a012b" name="Default Changelist" comment="Abouts, Refenrences">
-      <change afterPath="$PROJECT_DIR$/uploads/images/users/PunIcon-White-129.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/images/users/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/migrations/0006_faq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/migrations/0007_auto_20200517_1555.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/migrations/0008_faq_ordernumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/faq.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/homebase.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/homebase.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +71,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/uploads/images/users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/home/templates" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -76,9 +82,9 @@
       <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\uploads\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\home\templates" />
       <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\uploads\images\users" />
       <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\user\templates" />
-      <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\home\templates" />
       <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\content" />
       <recent name="C:\Users\Fatih\Desktop\Special Topics\mysite\user" />
     </key>
@@ -171,7 +177,7 @@
       <workItem from="1587994090722" duration="7620000" />
       <workItem from="1588840718461" duration="17272000" />
       <workItem from="1589028466263" duration="23522000" />
-      <workItem from="1589717368693" duration="1504000" />
+      <workItem from="1589717368693" duration="4161000" />
     </task>
     <task id="LOCAL-00001" summary="Header update">
       <created>1585423534503</created>
