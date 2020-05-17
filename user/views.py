@@ -20,6 +20,7 @@ def index(request):
     return render(request, 'user_profile.html', context)
 
 
+@login_required(login_url='/login')
 def user_update(request):
     if request.method == 'POST':
         user_form = UserUpdateForm(request.POST, instance=request.user)
@@ -39,6 +40,7 @@ def user_update(request):
         return render(request, 'user_update.html', context)
 
 
+@login_required(login_url='/login')
 def change_password(request):
     if request.method == 'POST':
         form = PasswordChangeForm(request.user, request.POST)
