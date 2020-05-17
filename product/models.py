@@ -118,3 +118,9 @@ class ContentForm(ModelForm):
             'image': FileInput(attrs={'class': 'input', 'placeholder': 'image'}),
             'detail': CKEditorWidget,
         }
+
+
+class ContentImageForm(ModelForm):
+    class Meta:
+        model = Images
+        fields = ['title', 'image']

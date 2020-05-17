@@ -5,9 +5,9 @@ from django.contrib.auth.forms import PasswordChangeForm
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, redirect
 
-from content.models import Content
+from content.models import Content, CImages
 from home.models import UserProfile, ContactForm
-from product.models import Category, Comment, ContentForm, Product
+from product.models import Category, Comment, ContentForm, Product, ContentImageForm, Images
 from user.forms import UserUpdateForm, ProfileUpdateForm
 
 
@@ -109,7 +109,7 @@ def addcontent(request):
             messages.success(request, 'Blog added!')
             return HttpResponseRedirect('/user/contents')
         else:
-            messages.success(request, 'Content form error :'+str(form.errors))
+            messages.warning(request, 'Content form error :'+str(form.errors))
             return HttpResponseRedirect('/user/addcontent')
     else:
         category = Category.objects.all()
@@ -145,3 +145,28 @@ def contentdelete(request, id):
     Product.objects.filter(id=id, user_id=current_user.id).delete()
     messages.success(request, 'Blog deleted!')
     return HttpResponseRedirect('/user/contents')
+
+
+def contentaddimage(request, id):
+    if request.method == 'POST':
+        lasturl = request.META.get('HTTP_REFERER')
+        form = ContentImageForm(request.POST, request.FILES)
+        if form.is_valid():
+            data = Images()
+            data.title = form.cleaned_data['title']
+            data.product_id = id
+            data.image = form.cleaned_data['image']
+            data.save()
+            messages.success(request, 'Your image has been successfully uploaded!')
+            return HttpResponseRedirect(lasturl)
+        else:
+            messages.warning(request, 'Form error :' + str(form.errors))
+            return HttpResponseRedirect(lasturl)
+    else:
+        content = Product.objects.get(id=id)
+        images = Images.objects.filter(product_id=id)
+        form = ContentImageForm()
+        context = {'content': content,
+                   'form': form,
+                   'images': images}
+        return render(request, 'content_gallery.html', context)
